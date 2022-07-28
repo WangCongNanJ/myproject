@@ -1,0 +1,9 @@
+查看当前分支 git branch
+创建并切换到新分支 git checkout -b 新分支的名称
+查看文件状态 git status;简化状态信息 git status -s;
+新创建的文件，且未添加到暂存区，状态码是：？？,文件后面显示U
+新创建的文件添加到暂存去命令：git add 完整路径文件名，添加完成后的状态码：A;一次添加多个文件 git add .;取消暂存区的文件 git reset HEAD 文件名称；
+新创建的文件且在缓存区，提交命令:git commit -m "新建了login.ve"
+非新建文件如果修改了，状态码是红色M;执行git add 命令添加到暂存区后状态码变成绿色M；add commit -m "文件修改了"
+把工作区修改的文件还原成git仓库保存的版本：git checkout -- index.html
+跳过暂存区直接提交 git commit -a -m "提交信息"
