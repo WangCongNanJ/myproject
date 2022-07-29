@@ -3,6 +3,7 @@
         <nav>
             <router-link to="/">Homes</router-link> |
             <router-link to="/about">About</router-link>
+            <h1>appyemian</h1>
         </nav>
         <router-view />
     </div>
